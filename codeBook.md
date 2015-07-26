@@ -5,8 +5,8 @@ The firts transformation, in order to clean the data, was to merge both training
 After that, it was a matter of renaming o labeling in a god way the variables
 I did not a special transformation on variables, just merge the data and rename it according the text information
 To merge data it was helpful dplyr package
-to get the tidy data in a correct way th efunction write.table was essential
-The units of the variables are the 
+to get the tidy data in a correct way the function write.table was essential
+Finally I get the average of every variable that has mean or std in its name
 
 Variables:
 tBodyAcc-mean()-X           
