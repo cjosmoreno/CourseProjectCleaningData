@@ -1,0 +1,6 @@
+mainTrain=read.table("./train/X_train.txt", header = F, sep = "")
+mainTest=read.table("./test/X_test.txt", header = F, sep = "")
+mainNames=read.table("./UCI HAR Dataset/features.txt", header = F, sep = "")
+library(dplyr)
+mergedData= merge(mainTrain,mainTest, all=TRUE)
+names(mergedData)= names(mainNames$V2)
